@@ -41,4 +41,4 @@ RUN sudo rosdep init && rosdep update
 RUN echo "source /opt/ros/indigo/setup.bash" >> ~/.bashrc
 
 # Restores default behavior of debconf
-RUN sudo su -c "echo 'debconf debconf/frontend select Dialog' | debconf-set-selections"
+# RUN sudo su -c "echo 'debconf debconf/frontend select Dialog' | debconf-set-selections"
